@@ -615,7 +615,7 @@ footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:18px}
     btn.style.opacity = '0.7';
     btn.style.cursor = 'wait';
     try {
-      const r = await fetch('https://formsubmit.co/ajax/admin@accessibledigital.com', {
+      const r = await fetch('https://mail.toolinho.org/api/public/form-submit', {
         method: 'POST',
         headers: { Accept: 'application/json' },
         body: new FormData(this),
